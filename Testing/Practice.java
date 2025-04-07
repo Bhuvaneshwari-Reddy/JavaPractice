@@ -49,15 +49,21 @@ public static int sum(int k){
     }
 }
 
-function buyHealth(gold){
-   if (gold >= 10) { 
-   gold -= 10;
-   health += 10;
-   goldText.innerText = gold;
-   healthText.innerText = health;
-   console.log("You have enough gold. Health purchased!");
+
+
+// function buyHealth(gold){
+//    if (gold >= 10) { 
+//    gold -= 10;
+//    health += 10;
+//    goldText.innerText = gold;
+//    healthText.innerText = health;
+//    console.log("You have enough gold. Health purchased!");
  
-}
+// }
+// }
+
+static void addTwoNum(int a,int b){
+ return a+b;
 }
 
 //instance of object
@@ -76,7 +82,8 @@ final int o=20;//updating the value  of o is not possible
         myMethod2("Reddy",24);
         mymethod4();
         checkAge(19);
-        buyHealth();
+        // buyHealth();
+         addTwoNum(5,5);
         int callmethod3=  myMethod3(2,5);
         System.out.println(callmethod3);
 
